@@ -1,0 +1,3 @@
+2025-02-02 20:00:48.645104-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL statement:
+INSERT INTO "USERS" ("EMAIL", "NAME", "PASSWORD") VALUES (?, ?, ?) [42102-232]

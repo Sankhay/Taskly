@@ -1,0 +1,12 @@
+2025-02-02 20:03:48.579753-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS users ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS users ( [42001-232]
+2025-02-02 20:25:44.909520-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS tasks ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, [*]hour TIME NOT NULL, days_of_week TEXT[] NOT NULL, user_id VARCHAR(60), CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) )"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS tasks ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, hour TIME NOT NULL, days_of_week TEXT[] NOT NULL, user_id VARCHAR(60), CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) ) [42001-232]
+2025-02-02 21:17:00.423535-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS tasks ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, [*]hour TIME NOT NULL, days_of_week TEXT[] NOT NULL, user_id VARCHAR(60), CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) )"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS tasks ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, hour TIME NOT NULL, days_of_week TEXT[] NOT NULL, user_id VARCHAR(60), CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) ) [42001-232]
+2025-02-02 21:18:01.861053-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS tasks ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, [*]hour TIME NOT NULL, days_of_week TEXT[] NOT NULL, user_id VARCHAR(60), CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) )"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS tasks ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, hour TIME NOT NULL, days_of_week TEXT[] NOT NULL, user_id VARCHAR(60), CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id) ) [42001-232]
